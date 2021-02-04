@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MultiplicationGameApp: App {
+    @StateObject var userSettings = UserSettings()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MotherView().environmentObject(userSettings)
         }
     }
 }
+
