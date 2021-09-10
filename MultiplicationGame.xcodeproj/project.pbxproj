@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553674DB26D7ED4A008D26BD /* Br.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553674DA26D7ED4A008D26BD /* Br.swift */; };
+		553674DD26E005F0008D26BD /* vm_padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553674DC26E005EF008D26BD /* vm_padding.swift */; };
+		553674DF26E005FC008D26BD /* vm_border_r.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553674DE26E005FB008D26BD /* vm_border_r.swift */; };
+		553674E126E00730008D26BD /* AskedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553674E026E00730008D26BD /* AskedNumber.swift */; };
+		553674E326E00C3A008D26BD /* vm_pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553674E226E00C3A008D26BD /* vm_pad.swift */; };
+		553674E526E00C47008D26BD /* padContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553674E426E00C47008D26BD /* padContent.swift */; };
 		5578FD7D25C25AC4007F4573 /* MultiplicationGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5578FD7C25C25AC4007F4573 /* MultiplicationGameApp.swift */; };
 		5578FD7F25C25AC4007F4573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5578FD7E25C25AC4007F4573 /* ContentView.swift */; };
 		5578FD8125C25AC6007F4573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5578FD8025C25AC6007F4573 /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		553674DA26D7ED4A008D26BD /* Br.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Br.swift; sourceTree = "<group>"; };
+		553674DC26E005EF008D26BD /* vm_padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vm_padding.swift; sourceTree = "<group>"; };
+		553674DE26E005FB008D26BD /* vm_border_r.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vm_border_r.swift; sourceTree = "<group>"; };
+		553674E026E00730008D26BD /* AskedNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskedNumber.swift; sourceTree = "<group>"; };
+		553674E226E00C3A008D26BD /* vm_pad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vm_pad.swift; sourceTree = "<group>"; };
+		553674E426E00C47008D26BD /* padContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = padContent.swift; sourceTree = "<group>"; };
 		5578FD7925C25AC4007F4573 /* MultiplicationGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplicationGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5578FD7C25C25AC4007F4573 /* MultiplicationGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationGameApp.swift; sourceTree = "<group>"; };
 		5578FD7E25C25AC4007F4573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +66,12 @@
 			children = (
 				5578FD7C25C25AC4007F4573 /* MultiplicationGameApp.swift */,
 				5578FD7E25C25AC4007F4573 /* ContentView.swift */,
+				553674E026E00730008D26BD /* AskedNumber.swift */,
+				553674DA26D7ED4A008D26BD /* Br.swift */,
+				553674DC26E005EF008D26BD /* vm_padding.swift */,
+				553674DE26E005FB008D26BD /* vm_border_r.swift */,
+				553674E226E00C3A008D26BD /* vm_pad.swift */,
+				553674E426E00C47008D26BD /* padContent.swift */,
 				5578FD8025C25AC6007F4573 /* Assets.xcassets */,
 				5578FD8525C25AC6007F4573 /* Info.plist */,
 				5578FD8225C25AC6007F4573 /* Preview Content */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553674DD26E005F0008D26BD /* vm_padding.swift in Sources */,
 				5578FD7F25C25AC4007F4573 /* ContentView.swift in Sources */,
 				5578FD7D25C25AC4007F4573 /* MultiplicationGameApp.swift in Sources */,
+				553674E526E00C47008D26BD /* padContent.swift in Sources */,
+				553674E126E00730008D26BD /* AskedNumber.swift in Sources */,
+				553674DB26D7ED4A008D26BD /* Br.swift in Sources */,
+				553674E326E00C3A008D26BD /* vm_pad.swift in Sources */,
+				553674DF26E005FC008D26BD /* vm_border_r.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
